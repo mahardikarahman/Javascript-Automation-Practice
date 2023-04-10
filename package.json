@@ -1,0 +1,23 @@
+{
+  "name": "javascript-automation-practice",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "scripts": {
+    "test get": "mocha filename.js",
+    "test post": "mocha filename.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahardikarahman/Javascript-Automation-Practice.git"
+  },
+  "author": "mahardikarahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahardikarahman/Javascript-Automation-Practice/issues"
+  },
+  "homepage": "https://github.com/mahardikarahman/Javascript-Automation-Practice#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
