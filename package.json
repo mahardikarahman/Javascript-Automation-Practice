@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/mahardikarahman/Javascript-Automation-Practice#readme",
   "dependencies": {
-    "mocha": "^10.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4"
   }
 }
