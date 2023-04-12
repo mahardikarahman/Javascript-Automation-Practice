@@ -4,7 +4,11 @@
   "description": "mocha chai petStore example",
   "main": "index.js",
   "scripts": {
-    "test get": "mocha filename.js",
+    "test": "mocha",
+    "post user": "mocha test/api/postCreateUser.js",
+    "login": "mocha test/api/getLoginUser.js",
+    "welcome": "mocha test/api/WelcomeTes.js",
+    "get": "mocha test/api/getExample.js",
     "test post": "mocha filename.js"
   },
   "repository": {
@@ -20,6 +24,7 @@
   "dependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   },
   "devDependencies": {
